@@ -1,5 +1,38 @@
-#container {
-    display: grid;
-    grid-template: 1fr / 1fr 10fr;
-    height: 100%;
+.container {
+  display: grid;
+  grid-template: 22vh 1fr 1fr 1fr / 20vw 1fr 1fr 20vw;
+  height: 100vh;
+  overflow: auto;
+}
+
+div {
+  border: 1px solid black;
+}
+
+.profile {
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+.navbar {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  display: flex;
+  flex-direction: column;
+}
+.hero {
+  grid-area: 2 / 2/ 5 / 4;
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr;
+  height: 100%;
+}
+.newsteller {
+  grid-area: 2 / 4 / 5 / 5;
+}
+.search {
+  display: flex;
+  flex-direction: row;
+}
+.account-info {
+  display: flex;
+  flex-direction: row;
 }
