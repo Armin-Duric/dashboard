@@ -2,7 +2,7 @@
   display: grid;
   grid-template: 22vh 1fr 1fr 1fr / 20vw 1fr 1fr 20vw;
   height: 100vh;
-  overflow: auto;
+  overflow: hidden;
 }
 
 div {
@@ -22,17 +22,16 @@ div {
   flex-direction: column;
   width: 100%;
 }
-.search > .search-bar {
+.search-bar {
   display: flex;
   flex-grow: 5;
 }
-.search > .notification-portion {
+.notification-portion {
   display: flex;
   flex-grow: 2; 
-}
-.account-info {
-  display: flex;
-  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
 }
 .hero {
   grid-area: 2 / 2/ 5 / 4;
@@ -86,4 +85,54 @@ li:hover {
 }
 .security {
   padding: 5px;
+}
+.search-bar > input {
+  height: 30px;
+  width: 65%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(228, 228, 228);
+}
+.search-bar > button {
+  height: min-content;
+  border: none;background-color: white;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  gap: 10px;
+}
+.notification-portion > :nth-child(2) {
+  border-radius: 50%;
+  cursor: pointer;
+}
+.notification-portion > img, .notification-portion > h3 {
+  cursor: pointer;
+}
+.account-info {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+}
+.account-info > img {
+  border-radius: 50%;
+}
+.account-info > .btns {
+  display: flex;
+  gap: 30px;
+  padding-right: 5%;
+}
+.btns button {
+  color: white;
+  background-color: rgb(85, 152, 240);
+  border: none;
+  border-radius: 10px;
+  width: 5vw;
+  height: 30px;
 }
