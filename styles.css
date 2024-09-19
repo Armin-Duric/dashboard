@@ -25,6 +25,7 @@ div {
   flex-direction: column;
   width: 100%;
   border-bottom: 2px solid gainsboro;
+  background-color: white;
 }
 .search-bar {
   display: flex;
