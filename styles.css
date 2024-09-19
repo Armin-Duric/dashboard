@@ -193,6 +193,10 @@ h2 > p {
   align-items: end;
   background-color: white;
 }
+.story:hover {
+  background-cover: black;
+  color: white;
+}
 .story > h3 {
   margin: 0;
 }
