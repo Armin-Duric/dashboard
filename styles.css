@@ -1,17 +1,12 @@
 body {
-  background-color: rgb(231, 238, 238)
+  background-color: rgb(231, 238, 238);
 }
-  .container {
+.container {
   display: grid;
   grid-template: 20vh minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) / 18vw 1fr 1fr 18vw;
   overflow: hidden;
   height: max-content;
 }
-
-div {
-  /* border: 1px solid black; */
-}
-
 .profile {
   grid-row-start: 1;
   grid-row-end: 5;
