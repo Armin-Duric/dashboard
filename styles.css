@@ -192,6 +192,7 @@ h2 > p {
   justify-content: space-between;
   align-items: end;
   background-color: white;
+  cursor: pointer;
 }
 .story:hover {
   background-cover: black;
