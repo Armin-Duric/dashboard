@@ -1,4 +1,7 @@
-.container {
+body {
+  background-color: rgb(231, 238, 238)
+}
+  .container {
   display: grid;
   grid-template: 20vh minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) / 18vw 1fr 1fr 18vw;
   overflow: hidden;
