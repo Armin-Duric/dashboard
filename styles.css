@@ -78,6 +78,7 @@ li {
   align-items: center;
   gap: 10px;
   cursor: pointer;
+  margin-top: 10px;
 }
 li:hover {
   font-size: 1.5rem;
@@ -196,6 +197,11 @@ h2 > p {
   height: 1.7rem;
   width: 1.7rem;
   padding: 5px;
+  cursor: pointer;
+}
+.story-icons > :nth-child(n):hover {
+  height: 2rem;
+  width: 2rem;
 }
 .hero > .title {
   grid-column-start: 1;
@@ -206,8 +212,11 @@ h2 > p {
   height: max-content;
 }
 .announcements {
-  margin-top: 30px;
+  margin-top: 45px;
   margin-right: 20px;
+}
+.announcements > h3 {
+  margin-bottom: 15px;
 }
 .message {
   background-color: white;
@@ -232,6 +241,27 @@ h4 {
   background-color: white;
   font-size: 15px;
   padding: 10px;
-  margin: 20px;
   border-radius: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.newsteller > h3 {
+  margin-top: 60px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+.trending-info > h5,
+.trending-info > p {
+  margin: 0;
+}
+.trending-account img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.trending-account {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 20px;
 }
