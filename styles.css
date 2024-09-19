@@ -195,8 +195,9 @@ h2 > p {
   cursor: pointer;
 }
 .story:hover {
-  background-cover: black;
+  background-color: black;
   color: white;
+  cursor: pointer;
 }
 .story > h3 {
   margin: 0;
