@@ -195,7 +195,7 @@ h2 > p {
   cursor: pointer;
 }
 .story:hover {
-  background-color: black;
+  background-color: #3c70a3;
   color: white;
   cursor: pointer;
 }
@@ -211,6 +211,9 @@ h2 > p {
 .story-icons > :nth-child(n):hover {
   height: 2rem;
   width: 2rem;
+}
+.story-icons:hover {
+  color: white;
 }
 .hero > .title {
   grid-column-start: 1;
